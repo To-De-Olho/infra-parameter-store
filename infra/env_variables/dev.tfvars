@@ -1,12 +1,12 @@
 parameters = {
-    "example1" = {
-        "description" = "",
+    "UrlDadosAbertos" = {
+        "description" = "Url da api que fornece informações relacionadas a câmara dos deputados",
         "type" = "String",
-        "value" = ""
+        "value" = "https://dadosabertos.camara.leg.br/api/v2/"
     },
-    "example2" = {
-        "description" = "",
+    "ConnectionString" = {
+        "description" = "String de conexão ao rds",
         "type" = "String",
-        "value" = ""
+        "value" = "Value"
     }
 }
